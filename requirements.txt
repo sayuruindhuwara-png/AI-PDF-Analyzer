@@ -1,0 +1,9 @@
+streamlit>=1.25
+
+PyMuPDF>=1.22
+
+transformers>=4.33
+
+torch>=2.1
+
+pandas>=2.1
