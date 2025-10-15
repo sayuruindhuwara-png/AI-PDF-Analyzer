@@ -20,5 +20,7 @@ A Streamlit web app that uses AI to analyze PDFs and research papers.
 2. Install dependencies: `pip install -r requirements.txt`
 3. Run the app: `streamlit run app.py`
 
-# Screenshot
+# Video
+https://github.com/user-attachments/assets/1a8dc8de-85fb-4c93-91f3-d9006e2d36e0
+
 
