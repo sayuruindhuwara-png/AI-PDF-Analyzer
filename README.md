@@ -1,51 +1,70 @@
-AI PDF Analyzer
+# AI PDF Analyzer
 
 A Streamlit web application that uses AI to analyze PDF documents and research papers.
 
-Features
+## Features
 
-Upload PDF documents
+- Upload PDF documents
+- Generate document summaries
+- Extract key points
+- Identify frequently occurring topics and keywords
+- Download analysis results
 
-Generate document summaries
+## Tech Stack
 
-Extract key points
+- Python
+- Streamlit
+- Hugging Face Transformers
+- PyMuPDF
+- Pandas
 
-Identify frequently occurring topics and keywords
-
-Download analysis results
-
-Tech Stack
-
-Python
-
-Streamlit
-
-Hugging Face Transformers
-
-PyMuPDF
-
-Pandas
-
-How It Works
+## How It Works
 
 The application takes an uploaded PDF and extracts its text using PyMuPDF. The extracted text is then processed using Hugging Face Transformers to generate a summary and identify important information from the document.
 
-Getting Started
+## Getting Started
 
-Clone the repository
+### Clone the repository
 
+```bash
 git clone https://github.com/sayuruindhuwara-png/AI-PDF-Analyzer.git
 cd AI-PDF-Analyzer
+```
 
-Install dependencies
+### Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
-Run the application
+### Run the application
 
+```bash
 streamlit run app.py
+```
 
-The application will open in your browser at http://localhost:8501.
+The application will open in your browser at `http://localhost:8501`.
+
+## Project Structure
+
+```text
+AI-PDF-Analyzer/
+│
+├── .github/
+│   └── workflows/
+├── app.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
+
+## Demo
+
+A short demonstration of the application is included in the repository.
+
+## License
+
+This project is licensed under the MIT License.
 
 # Video
 https://github.com/user-attachments/assets/1a8dc8de-85fb-4c93-91f3-d9006e2d36e0
